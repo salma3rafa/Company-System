@@ -1,0 +1,85 @@
+# depslib dependency file v1.0
+1647701678 source:c:\users\salma arafa\desktop\main\main.cpp
+	<iostream>
+
+1647697995 source:c:\users\salma arafa\desktop\main\src\budget.cpp
+	"Budget.h"
+
+1647697995 c:\users\salma arafa\desktop\main\include\budget.h
+
+1647704799 source:c:\users\salma arafa\desktop\main\src\department.cpp
+	"Department.h"
+	<iostream>
+	<string>
+
+1647704767 c:\users\salma arafa\desktop\main\include\department.h
+	<string>
+
+1647709451 source:c:\users\salma arafa\desktop\main\src\staffmember.cpp
+	"staffMember.h"
+	<iostream>
+	<string>
+
+1647709437 c:\users\salma arafa\desktop\main\include\staffmember.h
+	<Department.h>
+
+1647697995 source:c:\users\salma arafa\desktop\main\src\commissionemployee.cpp
+	"CommissionEmployee.h"
+
+1647698203 c:\users\salma arafa\desktop\main\include\commissionemployee.h
+	<string>
+	<Employee.h>
+
+1647702278 c:\users\salma arafa\desktop\main\include\employee.h
+	<staffMember.h>
+
+1647709900 source:c:\users\salma arafa\desktop\main\src\employee.cpp
+	"Employee.h"
+	<String>
+	<iostream>
+
+1647697995 source:c:\users\salma arafa\desktop\main\src\executiveemployee.cpp
+	"ExecutiveEmployee.h"
+	<iostream>
+
+1647698242 c:\users\salma arafa\desktop\main\include\executiveemployee.h
+	<salariedEmployee.h>
+
+1647698277 c:\users\salma arafa\desktop\main\include\salariedemployee.h
+	<Employee.h>
+
+1647704477 source:c:\users\salma arafa\desktop\main\src\salariedemployee.cpp
+	"salariedEmployee.h"
+
+1647698564 source:c:\users\salma arafa\desktop\main\src\hourlyemployee.cpp
+	"HourlyEmployee.h"
+	<string>
+	<iostream>
+
+1647698311 c:\users\salma arafa\desktop\main\include\hourlyemployee.h
+	<Employee.h>
+
+1647702278 source:c:\users\salma arafa\desktop\main\src\project.cpp
+	"Project.h"
+	<iostream>
+
+1647702278 c:\users\salma arafa\desktop\main\include\project.h
+	<Budget.h>
+	<Employee.h>
+
+1647699479 source:c:\users\salma arafa\desktop\main\src\staff.cpp
+	"staff.h"
+	<string>
+	<iostream>
+
+1647702709 c:\users\salma arafa\desktop\main\include\staff.h
+	<staffMember.h>
+
+1647702709 source:c:\users\salma arafa\desktop\main\src\volunteer.cpp
+	"Volunteer.h"
+	<string>
+	<iostream>
+
+1647704477 c:\users\salma arafa\desktop\main\include\volunteer.h
+	<staff.h>
+
